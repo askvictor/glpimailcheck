@@ -1,0 +1,10 @@
+Designed for checking if the GLPI email receiver is working correctly.
+
+Would likely work with any helpdesk/ticket system.
+
+Sends an email with a unique string to a specified email address (e.g. helpdesk@yourdomain)
+Waits a specified amount of time
+Checks an IMAP account to see if a confirmation email with the same unique string was received
+Writes success status to a file (which can be checked using Nagios or similar)
+
+This file was modified by PyCharm 2.7.2 for binding GitHub repository
